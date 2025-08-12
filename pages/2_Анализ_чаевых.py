@@ -122,6 +122,8 @@ ax.set_xlabel('День недели')
 ax.set_ylabel('Сумма счета')
 ax.grid(True)
 plt.xticks(rotation=45)
+with st.expander("kuku"):
+    st.write("👻")
 
 st.pyplot(fig)
 buf = io.BytesIO()
